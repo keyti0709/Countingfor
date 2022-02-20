@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+    </head>
+    <title>Counting For</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <body>
+        <div class="msg">
+            <h1>||  Time Remaining  ||</h1>
+        </div>
+        <div class="inputfd">
+            <div class="for">
+                <label class="lbl"for="birthdaytime">For:</label>
+            </div>
+            <input type="datetime-local" id="birthday" name="birthdaytime">
+            <button class="btn" onclick="counting()">Count</button> 
+        </div>
+        <div class="ccontainer">
+            <div class="cel days-c">
+                <p class="big" id="days">0</p>
+                <span>Days</span>
+            </div>
+            <div class="cel hrs-c">
+                <p class="big" id="hrs">0</p>
+                <span>Hours</span>
+            </div>
+            <div class="cel mins-c">
+                <p class="big" id="mins">0</p>
+                <span>Minutes</span>
+            </div>
+            <div class="cel secs-c">
+                <p class="big" id="secs">0</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </body>
+</html>
+<!-- Written and Debugged by Kartikey Tiwari | kartikey0402@gmail.com -->
