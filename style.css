@@ -71,3 +71,6 @@ input[type="datetime-local"]{
     border: none;
     border-radius: 5px;
 }
+#main{
+    visibility: hidden;
+}

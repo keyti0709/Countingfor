@@ -33,8 +33,11 @@ let newYears= document.getElementById("birthday").defaultValue = "1 Jan 2023";
         if(temp==""||new Date(temp)-new Date()<0)
         alert("Enter In Correct form");
         else
-        newYears=temp;
-        console.log(newYears);
+        {
+            newYears=temp;
+            console.log(newYears);
+            document.getElementById("main").style.visibility = "visible";
+        }
     }
     
     // Written and Debugged by Kartikey Tiwari | kartikey0402@gmail.com
